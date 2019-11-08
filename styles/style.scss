@@ -113,7 +113,13 @@ body {
 @media (max-width: 500px) {
   .answer-container {
     p {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
+    }
+  }
+
+  .end-banner {
+    h3 {
+      font-size: 1.5rem;
     }
   }
 }
