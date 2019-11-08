@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Jerns</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/c7414cb6d4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="banner-container">
+        <h1>Physical Chemistry</h1>
+        <p>Nicole Hernaez</p>
+        <a href="#sc1" ><i class="fas fa-chevron-down fa-2x"></i></a>
+      </div>
+    </header>
+
+    <section>
+      <div class="question-container" id="sc1">
+        <p data-aos="fade-left">
+          <span>Q.67</span> Is it always possible to normalize a wavefunction by
+          multiplying it by an appropriate constant?
+        </p>
+        <a href="#sc2"><i class="fas fa-chevron-down fa-2x"></i></a>
+      </div>
+    </section>
+
+    <section>
+      <div class="answer-container" id="sc2">
+        <p data0aos="fade-right">Normalization Condition:<p>
+        <p data-aos="fade-right">
+          To normalize a wavefunction, it should be multiplied by an appropriate
+          constant (other than zero) such that the sum of probability to find
+          the particle over entire space is 1:
+        </p>
+        <a href="#sc3"><i class="fas fa-chevron-down fa-2x"></i></a>
+      </div>
+    </section>
+
+    <section>
+      <div class="answer-container " id="sc3">
+        <p data-aos="fade-left" >(1) &#8747; <sup>&#8734;</sup>-&#8734; | &#936; (x) |&#178; dx = 1, <span class="sm"> where | &#936;(x)|&#178; = ( &#936;*(x)) ( &#936;(x))</span>  </p>
+        <p data-aos="fade-left">multiplying an Appropriate Constant (A) to &#936;(x) such that</p>
+        <p data-aos="fade-left"> &#8747; 1	&#936;(x)|&#178;dx = &#8747; |A &#936;(x)|&#178; dx = A&#178;&#8747;1&#936(x)|&#178; dx = 1</A></p>
+        <a href="#sc4"><i class="fas fa-chevron-down fa-2x"></i></a>
+      </div>
+    </section>
+
+    <section>
+      <div class="answer-container" id="sc4">
+        <p data-aos="faded-right">To find the normalization constant (A)</p>
+        <p data-aos="faded-right">A&#178; &#8747; 1 &#936;(x)|&#178; dx = 1 | </p>
+        <p data-aos="faded-right">A&#178; B = 1</p>
+        <p data-aos="faded-right">A&#178; = <sup>1</sup> &frasl;<sub>B</sub> </p>
+        <p data-aos="faded-right">A = <sup>1</sup>&frasl;<sub>&#8730;B</sub></p>
+        <p data-aos="faded-right">So, assuming that the integral &#8747;1 &#936;(x)|&#178; dx = B can be calculated,</p>
+        <p data-aos="faded-right">&#936;(x) is normalized if it is multiplied by <sup>1</sup>&frasl;<sub>&#8730;B</sub></p>
+        <a href="#sc5"><i class="fas fa-chevron-down fa-2x"></i></a>
+      </div>            
+    </section>
+
+    <section>
+      <div class="answer-container" id="sc5">
+        <p data-aos="faded-left"> <span class="yellow"> However it is not always possible to normalize a wavefunction by multiplying it by an appropriate constant.</span></p>
+        <p data-aos="faded-left">For instance, <span class="red"> a plane wave function</span></p>
+        <p data-aos="faded-left">&#936;(x,t) = >&#936; e <sup>i(kx-wt)</sup></p>
+        <a href="#sc6"><i class="fas fa-chevron-down fa-2x"></i></a>
+      </div>
+    </section>
+
+    <section>
+      <div class="answer-container" id="sc6">
+        <p data-aos="faded-right">The integral of its square over all space yields <span class="yellow"> infinity</span>. In quantum mechanics, normalization of a wavefunction requires the integral to <span class="yellow"> be equal to 1.</span> <span class="red"> There is no any complex number that can be used to multiply infinity to make it equal to one.</span></p>
+        <a href="#sc7"><i class="fas fa-chevron-down fa-2x"></i></a>
+      </div>
+    </section>
+
+    <section>
+      <div class="answer-container" id="sc7">
+        <p data-aos="faded-left">Thus a wavefunction can only be normalized if the wavefunction is <span class="yellow">single-valued</span>, <span class="yellow"> square-integrable</span>, and <span class="yellow"> continuous</span>.</p>
+        <p data-aos="faded-left">In example, the integral &#8747; 1 &#936;(x) | &#178;dx = B can be calculated. </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="end-banner">
+        <h3>Chemistry 373</h3>
+        <i class="fas fa-flask fa-4x"></i>
+      </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/app.js"></script>
+    <script>
+      AOS.init({
+        offset: 150,
+        duration: 1000});
+    </script>
+  </body>
+</html>
